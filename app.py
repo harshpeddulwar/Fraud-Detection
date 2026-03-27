@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import joblib
 
+#making app
+
 model = joblib.load("Fraud_detection_pipeline.pkl")
 
 st.title("Fraud Detection")
